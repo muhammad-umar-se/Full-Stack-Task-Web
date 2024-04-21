@@ -1,0 +1,64 @@
+/************************************* login container  *************************/
+.auth_layout_container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading_title {
+    color: #0077e5;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-left: 64px;
+}
+
+/************************************* left container *************************/
+.auth_layout_left_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+}
+
+.al_left_container_wrapper {
+    width: 400px
+}
+
+.lc_heading {
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 32px;
+    font-weight: 700 !important;
+    margin-top: 24px;
+}
+
+.lc_description {
+    color: rgba(0, 0, 0, 0.7) !important;
+    font-size: 16px;
+    font-weight: 300 !important;
+    margin-top: 13px;
+}
+
+/************************************* common styles *************************/
+.full_width {
+    width: 100%;
+    height: auto;
+}
+
+.font_style {
+    font-style: normal;
+    line-height: normal;
+    font-weight: 500;
+    color: #fff;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}

@@ -1,0 +1,42 @@
+/************************************* right container *************************/
+.right_container {
+    background-color: #0077e5;
+}
+
+.planning_wrapper {
+    display: flex;
+    justify-content: center;
+    position: sticky
+}
+
+.edge_pic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.planning_pic_wrapper {
+    padding: 56px 62px 0px 61px;
+    position: sticky;
+    overflow: hidden;
+}
+
+.signup_info {
+    text-align: center;
+}
+
+.hello_text {
+    margin: 69px 0px 0px 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.register_detail {
+    margin: 16px 0px 0px 0px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px !important;
+    font-weight: 400;
+    margin-bottom: 51px;
+}
