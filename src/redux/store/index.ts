@@ -18,15 +18,6 @@ const rootReducer = (state: RootState | undefined, action: any) => {
   return reducers(state, action);
 };
 
-// const middleware: (getDefaultMiddleware: () => Middleware<{}, RootState>[]) => Middleware<{}, RootState>[] = (getDefaultMiddleware) => {
-//   const thunkMiddleware: ThunkMiddleware<RootState> = thunk as RootState;
-//   return [
-//     ...getDefaultMiddleware(),
-//     thunkMiddleware,
-//     logger,
-//   ];
-// };
-
 const middleware: Middleware<{}, RootState>[] = [
   thunk as ThunkMiddleware<RootState>,
   logger,
